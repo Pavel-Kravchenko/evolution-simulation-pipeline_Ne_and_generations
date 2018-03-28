@@ -37,7 +37,7 @@ simulation_script.py
 Now you are ready to start.
 To check, command 
 ```bash run_script.sh``` and wait until the program is completed.
-It has to create ``./Files`` directory and archive it in to ``archive.tar``
+It has to create ``./Files`` directory and archive it to ``archive.tar``
 You are expected to receive such demo results in ./Files:
 
 ```

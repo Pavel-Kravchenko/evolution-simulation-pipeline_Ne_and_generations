@@ -1,11 +1,11 @@
 # evolution-simulation-pipeline_Ne_and_generations
-This is the evolution simulator to calculate all possible ranges of Ne, generations and mutations
+This is the evolution simulator to compute populations with all possible ranges of Ne, generations and mutations
 
 This pipeline is the part of bioengineering and bioinformatics faculty coursework, it creates the range of sequences with different evolution parameters
 
 ## Before you start
 
-The pipeline is availble only for <i>Linux</i> users </br>
+The pipeline is available only for <i>Linux</i> users </br>
 Make sure that you have installed all components:
 <ul>
 <li>Python 3.6 or upper https://www.python.org/
@@ -62,7 +62,7 @@ simulation_heteroplasmy|cycles_8|species_4|mutations_2_0.25
 simulation_heteroplasmy|cycles_8|species_8|mutations_1_0.25
 simulation_heteroplasmy|cycles_8|species_8|mutations_2_0.25
 ```
-For create your populations and analyze them change necessary parameters in run_script.sh and heatmap_df_maker.py
+For create your populations and analyze them, change necessary parameters in run_script.sh and heatmap_df_maker.py
 
 
 ## Contact me

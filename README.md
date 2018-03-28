@@ -46,27 +46,46 @@ You are expected to receive such demo results in ./Files:
 ```
 out_log_file_1.txt
 out_log_file_2.txt
-simulation_heteroplasmy|cycles_2|species_2|mutations_1_0.25
-simulation_heteroplasmy|cycles_2|species_2|mutations_2_0.25
-simulation_heteroplasmy|cycles_2|species_4|mutations_1_0.25
-simulation_heteroplasmy|cycles_2|species_4|mutations_2_0.25
-simulation_heteroplasmy|cycles_2|species_8|mutations_1_0.25
-simulation_heteroplasmy|cycles_2|species_8|mutations_2_0.25
-simulation_heteroplasmy|cycles_4|species_2|mutations_1_0.25
-simulation_heteroplasmy|cycles_4|species_2|mutations_2_0.25
-simulation_heteroplasmy|cycles_4|species_4|mutations_1_0.25
-simulation_heteroplasmy|cycles_4|species_4|mutations_2_0.25
-simulation_heteroplasmy|cycles_4|species_8|mutations_1_0.25
-simulation_heteroplasmy|cycles_4|species_8|mutations_2_0.25
-simulation_heteroplasmy|cycles_8|species_2|mutations_1_0.25
-simulation_heteroplasmy|cycles_8|species_2|mutations_2_0.25
-simulation_heteroplasmy|cycles_8|species_4|mutations_1_0.25
-simulation_heteroplasmy|cycles_8|species_4|mutations_2_0.25
-simulation_heteroplasmy|cycles_8|species_8|mutations_1_0.25
-simulation_heteroplasmy|cycles_8|species_8|mutations_2_0.25
+out_log_file_4.txt
+simulation_heteroplasmy|cycles_128|species_128|mutations_1_0.25
+simulation_heteroplasmy|cycles_128|species_128|mutations_2_0.25
+simulation_heteroplasmy|cycles_128|species_128|mutations_4_0.25
+simulation_heteroplasmy|cycles_128|species_16|mutations_1_0.25
+simulation_heteroplasmy|cycles_128|species_16|mutations_2_0.25
+simulation_heteroplasmy|cycles_128|species_16|mutations_4_0.25
+simulation_heteroplasmy|cycles_128|species_2|mutations_1_0.25
+simulation_heteroplasmy|cycles_128|species_2|mutations_2_0.25
+simulation_heteroplasmy|cycles_128|species_2|mutations_4_0.25
+simulation_heteroplasmy|cycles_128|species_32|mutations_1_0.25
+simulation_heteroplasmy|cycles_128|species_32|mutations_2_0.25
+simulation_heteroplasmy|cycles_128|species_32|mutations_4_0.25
+simulation_heteroplasmy|cycles_128|species_4|mutations_1_0.25
+simulation_heteroplasmy|cycles_128|species_4|mutations_2_0.25
+simulation_heteroplasmy|cycles_128|species_4|mutations_4_0.25
+simulation_heteroplasmy|cycles_128|species_64|mutations_1_0.25
+simulation_heteroplasmy|cycles_128|species_64|mutations_2_0.25
+simulation_heteroplasmy|cycles_128|species_64|mutations_4_0.25
+simulation_heteroplasmy|cycles_128|species_8|mutations_1_0.25
+simulation_heteroplasmy|cycles_128|species_8|mutations_2_0.25
+simulation_heteroplasmy|cycles_128|species_8|mutations_4_0.25
+simulation_heteroplasmy|cycles_16|species_128|mutations_1_0.25
+simulation_heteroplasmy|cycles_16|species_128|mutations_2_0.25
+simulation_heteroplasmy|cycles_16|species_128|mutations_4_0.25
+simulation_heteroplasmy|cycles_16|species_16|mutations_1_0.25
+simulation_heteroplasmy|cycles_16|species_16|mutations_2_0.25
+simulation_heteroplasmy|cycles_16|species_16|mutations_4_0.25
+simulation_heteroplasmy|cycles_16|species_2|mutations_1_0.25
+simulation_heteroplasmy|cycles_16|species_2|mutations_2_0.25
+simulation_heteroplasmy|cycles_16|species_2|mutations_4_0.25
+simulation_heteroplasmy|cycles_16|species_32|mutations_1_0.25
+simulation_heteroplasmy|cycles_16|species_32|mutations_2_0.25
+simulation_heteroplasmy|cycles_16|species_32|mutations_4_0.25
+simulation_heteroplasmy|cycles_16|species_4|mutations_1_0.25
+simulation_heteroplasmy|cycles_16|species_4|mutations_2_0.25
+...
 ```
 
-``out_log_file_2.txt`` contains the Kendall's rank correlation tau table
+``out_log_file_1.txt`` contains the Kendall's rank correlation tau table
 
 ```
 Spe\Gen	2	4	8	

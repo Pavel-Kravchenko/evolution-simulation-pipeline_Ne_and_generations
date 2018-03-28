@@ -88,10 +88,14 @@ simulation_heteroplasmy|cycles_16|species_4|mutations_2_0.25
 ``out_log_file_1.txt`` contains the Kendall's rank correlation tau table
 
 ```
-Spe\Gen	2	4	8	
-2	NA	NA	NA	
-4	NA	NA	NA	
-8	NA	-0.683	-0.423	
+Spe\Gen	2	4	8	16	32	64	128	
+2	NA	NA	NA	NA	NA	NA	NA	
+4	NA	NA	NA	NA	NA	NA	NA	
+8	NA	NA	NA	NA	NA	NA	NA	
+16	NA	NA	NA	NA	-0.269	NA	-0.38	
+32	NA	NA	NA	-0.336	-0.444	-0.152	-0.223	
+64	NA	NA	NA	NA	-0.285	-0.149	-0.367	
+128	NA	NA	NA	NA	-0.328	-0.324	-0.213		
 ```
 To create your populations and analyze them, change necessary parameters in run_script.sh and heatmap_df_maker.py
 

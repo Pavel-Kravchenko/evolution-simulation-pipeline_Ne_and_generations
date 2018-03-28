@@ -1,9 +1,7 @@
 # evolution-simulation-pipeline_Ne_and_generations
-This is the evolution simulator for calculate all possible ranges of Ne, generations and mutations
+This is the evolution simulator to calculate all possible ranges of Ne, generations and mutations
 
-This pipeline is the part of bioengineering and bioinformatics faculty coursework
-
-The pipeline creates the range of sequences with different evolution parameters
+This pipeline is the part of bioengineering and bioinformatics faculty coursework, it creates the range of sequences with different evolution parameters
 
 ## Before you start
 
@@ -37,9 +35,9 @@ run_script.sh
 simulation_script.py
 ```
 Now you are ready to start.
-For checking command 
-```bash run_script.sh``` and wait when the program have completed.
-The program have to create ``./Files`` directory and archive it in to ``archive.tar``
+To check, command 
+```bash run_script.sh``` and wait when the program has completed.
+The program has to create ``./Files`` directory and archive it in to ``archive.tar``
 You are expected to receive such demo results in Files:
 
 ```
@@ -74,3 +72,4 @@ Feel free to contact me for any suggestions or critique.
 Email: pavel-kravchenk0@yandex.ru 
 
 Site: http://kodomo.fbb.msu.ru/~pavel-kravchenko/index.html 
+

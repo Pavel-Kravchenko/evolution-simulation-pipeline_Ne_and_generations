@@ -25,7 +25,7 @@ First of all you have to ```clone``` this directory</br></br>
 Then ```cd``` in evolution-simulation-pipeline_Ne_and_generations</br></br>
 ```cd evolution-simulation-pipeline_Ne_and_generations```</br></br>
 And ```tar``` Species_files.tar.gz</br></br>
-```tar -xvf Species_files.tar.gz```</br></br>
+```tar -xvf evolution-simulation-pipeline_Ne_and_generations.tar.gz```</br></br>
 Command ```ls -1``` and make sure that you have all files in your directory
 ```
 alignment_reader.py

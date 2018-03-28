@@ -62,7 +62,7 @@ simulation_heteroplasmy|cycles_8|species_4|mutations_2_0.25
 simulation_heteroplasmy|cycles_8|species_8|mutations_1_0.25
 simulation_heteroplasmy|cycles_8|species_8|mutations_2_0.25
 ```
-For create your populations and analyze them, change necessary parameters in run_script.sh and heatmap_df_maker.py
+To create your populations and analyze them, change necessary parameters in run_script.sh and heatmap_df_maker.py
 
 
 ## Contact me

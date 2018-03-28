@@ -98,7 +98,27 @@ Spe\Gen	2	4	8	16	32	64	128
 128	NA	NA	NA	NA	-0.328	-0.324	-0.213		
 ```
 To create your populations and analyze them, change necessary parameters in run_script.sh and heatmap_df_maker.py
+You may variate following parameters:</br></br>
+In run_script.sh
+<ul>
+<li>mask=0.25
+</ul>
+In heatmap_df_maker.py
+<ul>
+<li>round_ = 3
+<li>pvalue_stop = 0.05
+</ul>
+In alignment_reader_script.py
+<ul>
+<li>round_ = 4
+</ul>
+In simulation_script.py
+<ul>
+<li>length_of_sequence = 1000
+<li>round_ = 4
+</ul>
 
+When you change generation, species or mutation parameters in run_script.sh, do not forget to change the same parameters (iter_ = mutation, species = species, generation = generation) in heatmap_df_maker.py.
 
 ## Contact me
 

@@ -1,7 +1,7 @@
 # evolution-simulation-pipeline_Ne_and_generations
-This is the evolution simulator to compute populations with all possible ranges of Ne, generations and mutations
+This is the evolution simulator to compute populations with all possible ranges of Ne, generations and mutations. It creates the range of sequences with different evolution parameters
 
-This pipeline is the part of bioengineering and bioinformatics faculty coursework, it creates the range of sequences with different evolution parameters
+This pipeline is the part of bioengineering and bioinformatics faculty coursework
 
 ## Before you start
 

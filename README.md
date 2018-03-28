@@ -1,5 +1,5 @@
 # evolution-simulation-pipeline_Ne_and_generations
-This is a evolution simulator for calculate all possible ranges of Ne, generations and mutations. 
+This is the evolution simulator for calculate all possible ranges of Ne, generations and mutations
 
 This pipeline is the part of bioengineering and bioinformatics faculty coursework
 

@@ -28,24 +28,43 @@ And ```tar``` Species_files.tar.gz</br></br>
 ```tar -xvf evolution-simulation-pipeline_Ne_and_generations.tar.gz```</br></br>
 Command ```ls -1``` and make sure that you have all files in your directory
 ```
-alignment_reader.py
+alignment_reader_script.py
+evolution-simulation-pipeline_Ne_and_generations.tar.gz
+heatmap_df_maker.py
 README.md
-R_plotter.R
-script1.sh
-script2.sh
-script3.sh
-Species_files
-Species_files.tar.gz
+R_plot.R
+run_script.sh
+simulation_script.py
 ```
 Now you are ready to start.
-Command 
-```bash script1.sh``` and wait when the program have completed.
-You are expected to receive such demo results in Species_files:
+For checking command 
+```bash run_script.sh``` and wait when the program have completed.
+The program have to create ``./Files`` directory and archive it in to ``archive.tar``
+You are expected to receive such demo results in Files:
 
-
-If everything gone well, clear Species_files and copy your ```.fasta``` file in Species_files</br></br>
-And command</br></br>
-```bash script1.sh```</br>
+```
+out_log_file_1.txt
+out_log_file_2.txt
+simulation_heteroplasmy|cycles_2|species_2|mutations_1_0.25
+simulation_heteroplasmy|cycles_2|species_2|mutations_2_0.25
+simulation_heteroplasmy|cycles_2|species_4|mutations_1_0.25
+simulation_heteroplasmy|cycles_2|species_4|mutations_2_0.25
+simulation_heteroplasmy|cycles_2|species_8|mutations_1_0.25
+simulation_heteroplasmy|cycles_2|species_8|mutations_2_0.25
+simulation_heteroplasmy|cycles_4|species_2|mutations_1_0.25
+simulation_heteroplasmy|cycles_4|species_2|mutations_2_0.25
+simulation_heteroplasmy|cycles_4|species_4|mutations_1_0.25
+simulation_heteroplasmy|cycles_4|species_4|mutations_2_0.25
+simulation_heteroplasmy|cycles_4|species_8|mutations_1_0.25
+simulation_heteroplasmy|cycles_4|species_8|mutations_2_0.25
+simulation_heteroplasmy|cycles_8|species_2|mutations_1_0.25
+simulation_heteroplasmy|cycles_8|species_2|mutations_2_0.25
+simulation_heteroplasmy|cycles_8|species_4|mutations_1_0.25
+simulation_heteroplasmy|cycles_8|species_4|mutations_2_0.25
+simulation_heteroplasmy|cycles_8|species_8|mutations_1_0.25
+simulation_heteroplasmy|cycles_8|species_8|mutations_2_0.25
+```
+For create your populations and analyze them change necessary parameters in run_script.sh and heatmap_df_maker.py
 
 
 ## Contact me

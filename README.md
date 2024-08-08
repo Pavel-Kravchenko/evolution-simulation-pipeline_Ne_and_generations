@@ -124,7 +124,7 @@ When you change generation, species or mutation parameters in run_script.sh, do 
 
 Feel free to contact me for any suggestions or critique.
 
-Email: pavel-kravchenk0@yandex.ru 
+Email: pavel-kravchenk0[@]yandex[dot]ru
 
 Site: http://kodomo.fbb.msu.ru/~pavel-kravchenko/index.html 
 
